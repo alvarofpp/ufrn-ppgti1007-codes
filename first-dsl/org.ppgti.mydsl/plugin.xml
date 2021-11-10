@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension point="org.eclipse.emf.ecore.generated_package">
+		<package
+			uri = "http://www.ppgti.org/mydsl/MyDSL"
+			class = "org.ppgti.mydsl.myDSL.MyDSLPackage"
+			genModel = "model/generated/MyDSL.genmodel" />
+	</extension>
+</plugin>

@@ -1,0 +1,9 @@
+grammar org.ppgti.mydsl.MyDSL with org.eclipse.xtext.common.Terminals
+
+generate myDSL "http://www.ppgti.org/mydsl/MyDSL"
+
+Pessoas:
+	baseDados += Pessoa*;
+	
+Pessoa:
+	'Pessoa' nome=ID sobrenome=ID ';';
